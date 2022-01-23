@@ -843,13 +843,13 @@ SELECT name FROM students WHERE name REGEXP '^to';
 #### Q93. How are permissions implemented in MySQL?
 - [ ] encrypted algorithms
 - [ ] access control lists
-- [ ] user settings
+- [x] user settings
 - [ ] administrator schema
 
 #### Q94. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 - [ ] `UNDO`
 - [ ] `UNCOMMIT`
-- [ ] `ROLLBACK`
+- [x] `ROLLBACK`
 - [ ] `REVERSE
 
 #### Q95. What function finds the current time or date in MySQL?
